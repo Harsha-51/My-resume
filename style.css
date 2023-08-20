@@ -1,0 +1,70 @@
+.top-container{
+    display:grid;
+    grid-template-columns: 1fr 8fr;
+    font-family: "Merriweather", serif;    
+}
+.img1{
+    height:120px;
+    width:120px;
+    border-radius: 50%;
+    margin:10px;  
+    top: 10px;
+}
+.details{
+    display:grid;
+    grid-template-rows:1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    
+    position:relative;
+    bottom:5px;
+}
+.inline{
+    display:inline-block;
+    position:relative;
+    bottom:4px;
+}
+h1{
+    font-size:30px;
+    color: #66bfbf;
+}
+h2{
+    color: #66bfbf;
+
+}
+#black{
+    color:black
+}
+.eduski{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+.eduski2{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:20px;
+}
+button{
+    border-radius:10px;
+    background-color: #C8FFD4;
+    border-width: 0px;
+}
+.intpro{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+div{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.cerint{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+.int{
+    display:grid;
+    grid-template-columns: 1fr 0.75fr 1fr;
+    
+}
+.intlan{
+    display:grid;
+}
